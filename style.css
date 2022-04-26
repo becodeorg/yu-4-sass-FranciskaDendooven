@@ -80,6 +80,12 @@ h6 {
   background-color: #000;
 }
 
+.warning, .error, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #ccc;
+}
+
 .success {
   background-color: green;
 }
