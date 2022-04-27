@@ -100,4 +100,18 @@ h6 {
 
 .warning {
   background-color: orange;
-}/*# sourceMappingURL=style.css.map */
+}
+
+h1,
+h2,
+h6 {
+  color: red;
+}
+
+body {
+  color: red;
+}
+
+#homelink {
+  text-align: center;
+}/*# sourceMappingURL=red.css.map */

@@ -1,0 +1,16 @@
+@use 'base';
+@use 'style';
+
+h1,
+  h2,
+  h6 {
+    color: base.$first-color;
+  }
+
+  body{
+    color: base.$first-color;
+  }
+
+  #homelink{
+    text-align: center;
+}

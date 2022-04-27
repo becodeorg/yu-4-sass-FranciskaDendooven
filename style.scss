@@ -1,3 +1,5 @@
+@use 'base';
+
 body {
     font: 100% "Space Mono", monospace;
     color: #2748b3;
@@ -76,6 +78,10 @@ body {
   }
 }
 
+#linkcolorpage{
+  text-align: center;
+}
+
   h1,
   h2,
   h6 {
@@ -98,7 +104,7 @@ h6 {
   .error,
   .warning {
     border: 1px solid #ccc;
-    padding: 16px;
+    padding: $padding;
     margin: 16px;
     color: #2748b3;
     background-color: #000;
@@ -109,7 +115,7 @@ h6 {
     padding: 10px;
     color: #ccc;
      }
-     
+
   .success {
     @extend %message-shared;
     background-color: green;
