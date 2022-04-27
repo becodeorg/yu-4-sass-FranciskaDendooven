@@ -1,10 +1,17 @@
 @use 'base';
+@mixin boxShadow (){
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+}
+
+$padding:16px;
 
 body {
     font: 100% "Space Mono", monospace;
     color: #2748b3;
     margin: 0px;
-    padding: 0px;
+    padding: $padding*0;
     background-color: black;
     background-image: radial-gradient(
         #fff,
@@ -22,14 +29,6 @@ body {
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     background-attachment: fixed;
   }
-
-  @mixin boxShadow (){
-    -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-    box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-  }
-  
-  $padding:16px;
 
   article {
     display: flex;
